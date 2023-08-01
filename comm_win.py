@@ -14,7 +14,7 @@ try:
     with open('f2.txt', 'r') as r:
         sorted_f2 = sorted(r)
 except FileNotFoundError:
-    print(f"The file 'f1.txt' does not exist.")
+    print(f"The file 'f2.txt' does not exist.")
 except IOError:
     print("An error occurred while reading the file.")
 
